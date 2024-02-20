@@ -1,0 +1,38 @@
+
+Step 1
+
+1. O(n + 10) becomes O(n).
+2. O(100 * n) simplifies to O(n).
+3. O(25) is a constant time complexity, simplifying to O(1).
+4. O(n^2 + n^3) simplifies to O(n^3).
+5. O(n + n + n + n) is O(4n), which simplifies to O(n).
+6. O(1000 * log(n) + n) simplifies to O(n).
+7. O(1000 * n * log(n) + n) simplifies to O(n log(n)).
+8. O(2^n + n^2) simplifies to O(2^n).
+9. O(5 + 3 + 1) simplifies to O(1), a constant time complexity.
+10. O(n + n^(1/2) + n^2 + n * log(n)^10) simplifies to O(n^2).
+
+Step 2
+
+1. O(n)
+2. O(n)
+3. O(1)
+4. O(n)
+5. O(n2sqrt)
+
+Step3
+
+1. True or false: n^2 + n is O(n^2). Answer: True.
+2. True or false: n^2 * n is O(n^3). Answer: True.
+3. True or false: n^2 + n is O(n). Answer: False.
+4. What’s the time complexity of the .indexOf array method? Answer: O(n).
+5. What’s the time complexity of the .includes array method? Answer: O(n).
+6. What’s the time complexity of the .forEach array method? Answer: O(n).
+7. What’s the time complexity of the .sort array method? Answer: O(n log n) on average for most implementations.
+8. What’s the time complexity of the .unshift array method? Answer: O(n).
+9. What’s the time complexity of the .push array method? Answer: O(1).
+10. What’s the time complexity of the .splice array method? Answer: O(n).
+11. What’s the time complexity of the .pop array method? Answer: O(1).
+12. What’s the time complexity of the Object.keys() function? Answer: O(n).
+
+13. The space complexity of the Object.keys() function is O(n).
